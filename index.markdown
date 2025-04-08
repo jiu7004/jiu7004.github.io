@@ -6,4 +6,5 @@ layout: default
 title: Home
 ---
 
-Hello! this is the first page!
+Currently Building ...
+Former Blog : https://tara7004.tistory.com/
