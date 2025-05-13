@@ -1,9 +1,11 @@
-title: Hacker-Blog
-description: "A Jekyll Blog Theme For Hackers"
+title: JiU
+description: "Hacking and Cyber Security Blog"
 author:
-  name: "SomeHacker"
-  email: "someone@somewebsite.somedomain"
-  url: "https://ashishchaudhary.in/hacker-blog"
+  name: "JiU Ban"
+  email: "tara7004@korea.ac.kr"
+  url: "http://jjiyou.com"
+
+#https://github.com/pages-themes/hacker
 
 baseurl: /
 
@@ -30,3 +32,8 @@ plugins:
 # Custom variables
 owner : "SomeHacker"
 year : "2020"
+
+#recently added
+remote_theme: pages-themes/hacker@v0.2.0
+plugins:
+- jekyll-remote-theme 
